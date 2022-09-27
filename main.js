@@ -31,5 +31,5 @@ function clearTextArea (e) {
    clearBtn.setAttribute('style','display: none');
    countBtn.setAttribute('style','display: block');
 
-  e.preventDefault;
+  e.preventDefault();
 }
