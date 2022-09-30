@@ -28,6 +28,7 @@ function wordCounter (e){
 
 function clearTextArea (e) {
   textArea.value = "";
+ result.textContent = 0;
    clearBtn.setAttribute('style','display: none');
    countBtn.setAttribute('style','display: block');
 
